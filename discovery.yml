@@ -1,10 +1,13 @@
-spring.application.name: discovery
+---
+spring:
+  profiles: local
+
 server:
   port: 18081
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: local
   client:
     serviceUrl.defaultZone: http://localhost:18081/eureka/
     registerWithEureka: false
