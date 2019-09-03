@@ -1,0 +1,7 @@
+aladin:
+  ttbKey: "{cipher}a2ed5d27ba108c6885e65443f8ca02a92eed87df29641fe85d34711980e28847fa9f6b6d8e99658369744be7bdac633b"
+
+spring:
+  profiles:
+    include:
+      - mysql
