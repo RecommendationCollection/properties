@@ -5,3 +5,15 @@ spring:
   profiles:
     include:
       - mysql
+
+---
+spring:
+  profiles: local
+
+server:
+  port: 18082
+
+eureka:
+  client:
+    region: default
+    serviceUrl.defaultZone: http://localhost:18081/eureka/
